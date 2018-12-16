@@ -1,0 +1,115 @@
+/* Club van 25 */
+
+div.clubvan25row {
+	overflow: hidden;
+	width: 100%;
+}
+
+div.clubvan25item {
+	float: left;
+	margin: 1%;
+	width: 31%;
+    font-size: 1.2em;
+	font-weight: bold;	
+	text-align: center;
+}
+
+div.clubvan25item img {
+	margin-bottom: 2px;
+	width: 100%;
+}
+
+div.clubvan25 span {
+    font-size: 1.2em;
+	font-weight: bold;		
+	width: 100%;
+}
+
+div.clubvan25title {
+	overflow: hidden;
+	width: 100%;
+}
+
+div.clubvan25 img {
+	width: 100%;
+}
+
+td, th.clubvan25 {
+	padding: 2px;
+	text-align: left;
+}
+
+table#cv25-member-table > tbody > tr:nth-child(even) { background-color: rgba(200, 200, 200, 0.4); }
+table#cv25-member-table > tbody > tr:nth-child(odd) { background-color: rgba(255, 255, 255, 0.4); }
+
+div.ajax-loader {
+	height: 16px;
+	width: 16px;
+	display: none;
+	background-image: url("img/ajax-loader.gif");
+}
+
+div#year-select {
+}
+
+div#member-table-id{
+	float: left;
+}
+
+td.overflowable {
+	height: 20px;
+	width: 300px;
+}
+
+form > label {
+	display: block;
+}
+
+form > label > span {
+	display: inline-block;
+	width: 100px;
+}
+
+form > select {
+	display: block;
+	width: 350px;
+}
+
+form > label > input {
+	width: 250px;
+}
+
+form > input.pull-right {
+	margin: 5px 0 0 250px;
+	width: 100px;
+}
+
+.admin-wrapper {
+	width: 400px;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.grow {
+	-moz-transition: height .5s;
+    -ms-transition: height .5s;
+    -o-transition: height .5s;
+    -webkit-transition: height .5s;
+    transition: height .5s;
+    height: 0;
+    overflow: hidden;
+}
+
+.caret {
+	margin-left: 10px;
+}
+
+.caret-down:after {
+	content: "\25bc";
+}
+
+.caret-up:after {
+	content: "\25b2";
+}
